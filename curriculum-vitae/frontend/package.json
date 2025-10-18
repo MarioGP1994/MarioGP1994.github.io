@@ -9,7 +9,7 @@
     "postbuild": "cp dist/index.html dist/404.html || copy dist\\index.html dist\\404.html",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "cross-env NODE_ENV=production npm run build && node -e \"require('fs').closeSync(require('fs').openSync('dist/.nojekyll','w'))\"",,
     "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
