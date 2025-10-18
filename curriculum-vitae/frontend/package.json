@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://MarioGP1994.github.io/MarioGP1994.github.io",
+  "homepage": "https://MarioGP1994.github.io/curriculum-vitae",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
