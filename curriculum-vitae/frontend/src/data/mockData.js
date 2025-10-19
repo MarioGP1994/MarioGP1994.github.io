@@ -1,4 +1,4 @@
-import speech from "../assets/volunteeringDay.jpg";
+import speech from "/assets/volunteeringDay.jpg";
 
 // Mock CV data for full-stack developer
 export const cvData = {
