@@ -70,6 +70,7 @@ export const cvData = {
       { name: "Java", level: 75 },
       { name: "Spring Boot", level: 75 },
       { name: "Spring Security", level: 60},
+      { name: "HashiCorp Vault", level: 80},
       { name: "Node.js", level: 60 },
       { name: "Python", level: 70 },
       { name: "FastAPI", level: 60 },
@@ -87,17 +88,32 @@ export const cvData = {
     ],
     tools: [
       { name: "Git", level: 70 },
-      { name: "Docker", level: 60 },
+      { name: "Docker", level: 70 },
       { name: "Vite.js", level: 80 },
       { name: "Swagger", level: 80},
       { name: "Postman", level: 80},
-      { name: "CI/CD", level: 70 }
     ]
   },
 
   experience: [
     {
       id: 1,
+      company: "Implemental Systems",
+      position: "Software Developer",
+      location: "Madrid, Spain",
+      duration: "October 2025 - January 2026",
+      description: "Developed the HashiCorp Vault for a GIS application",
+      achievements: [
+        "Developed and integrated HashiCorp Vault for a GIS application",
+        "Gained hands-on experience deploying and managing HashiCorp Vault in on‑premises environments",
+        "Implemented HashiCorp Vault within a Docker‑based architecture",
+        "Learned how to create branches, push code, and manage multiple projects using Git",
+        "Fixed bugs in the logs module and improved the CSV export functionality"
+      ],
+      technologies: "Java, Spring Boot, Microservices, Docker, HashiCorp Vault"
+    },
+    {
+      id: 2,
       company: "EducaChild",
       position: "English Teacher",
       location: "Madrid, Spain",
@@ -111,7 +127,7 @@ export const cvData = {
       technologies: "None"
     },
     {
-      id: 2,
+      id: 3,
       company: "C.E.I.P Aben Hazam",
       position: "Religion Teacher",
       location: "Leganés, Spain",
@@ -125,7 +141,7 @@ export const cvData = {
       technologies: "None"
     },
     {
-      id: 3,
+      id: 4,
       company: "Nova Gades S.L.",
       position: "Learning Support Teacher",
       location: "Getafe, Spain",
@@ -139,7 +155,7 @@ export const cvData = {
       technologies: "None"
     },
     {
-      id: 4,
+      id: 5,
       company: "Asociación Murialdo",
       position: "Social Educator",
       location: "Getafe, Spain",
@@ -153,7 +169,7 @@ export const cvData = {
       technologies: "None"
     },
     {
-      id: 5,
+      id: 6,
       company: "Freelancer",
       position: "Childminder / Live-in Au Pair",
       location: "Dublin, Ireland",
@@ -392,7 +408,7 @@ export const cvData = {
       date: "April 2016",
       image: speech,
       description: "Awarded for being one of the most outstanding volunteers on International Volunteering Day 2016, after contributing over five years to the charity organization Asociación Murialdo",
-      speech: "Let's turn back the clocks to 2016. I was eager to give my speech on International Volunteer Day, sharing my perspective on the experience and encouraging young people to participate in similar projects. I believe it is crucial to dedicate time to making the world a better place, after understanding what drives it and what its needs are. I am grateful to the Murialdo charity organization for supporting me for five years and making this experience meaningful."
+      speech: "Let's turn back to 2016. I was eager to give my speech on International Volunteer Day, sharing my experience and encouraging young people to join similar projects. It is essential to dedicate time to making the world a better place, after understanding what drives it and what it needs. I am grateful to the Murialdo charity organization for supporting me for five years and making this experience meaningful."
     }
   ]
 };
